@@ -49,11 +49,7 @@ The main goal is to create a modular and scalable AI system with the following a
 ## Future Directions  
 - Expand the system to support additional NER tasks and entity types.  
 - Experiment with alternative LLMs for cost efficiency and performance improvements.  
-- Benchmark multi-agent architectures for clinical NLP tasks to evaluate scalability and real-world applicability.  
+- Benchmark multi-agent architectures for clinical NLP tasks to evaluate scalability and real-world applicability. 
 
 ## Contributing  
-Contributions and ideas are welcome! Feel free to open issues or submit pull requests to help improve the project.  
-
----
-
-Se precisar de ajustes ou de seções adicionais, como "Como executar" ou "Exemplos de uso", me avise!
+Contributions and ideas are welcome! Feel free to open issues or submit pull requests to help improve the project.
