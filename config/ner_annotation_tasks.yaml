@@ -1,0 +1,27 @@
+ner_annotation:
+  description: >
+    Annotate clinical sentences in Portuguese by identifying and tagging entities
+    belonging to the assigned cluster of tags. Use the descriptions and examples
+    of the entities as a guide to ensure precise and consistent annotation.
+    Utilize tools to know more about the entities to detect and a use the description
+    to recognize the entities.
+    - text to be analyzed:
+    {sentence}
+  expected_output: >
+    A structured output and validated including:
+    - Substrings of the sentence where entities were recognized.
+    - A list of valid entities associated with each substring.
+
+ner_review_and_consolidation:
+  description: >
+    Review the of identified entities provided by NER Annotator Specialist for the text: {sentence}.
+    Validate the correctness of the annotations and consolidate the results into 
+    a single unified output. Use the descriptions and examples of entities as a guide 
+    to ensure precision. If annotations are insufficient or incorrect, request a 
+    re-analysis from the relevant specialist.
+    Utilize tools to know more about the entities to detect and a use the description
+    to recognize the entities.
+  expected_output: >
+    A structured output and validated including:
+    - Substrings of the sentence where entities were recognized.
+    - A list of valid entities associated with each substring.
